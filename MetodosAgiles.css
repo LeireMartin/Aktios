@@ -9,14 +9,12 @@ header{
     background:#4b3e4d;
     overflow: hidden;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;   
 }
 h1{
     text-align: center;
     color: #dbd8a2;
     font-variant: small-caps;
-
 }
 p{
     color: #d74f33;
