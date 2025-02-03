@@ -4,6 +4,10 @@
 .Links { #c4ac30 };
 .Titulos { #d74f33 };
 */
+@font-face {
+    font-family: 'NotoSans';
+    src: url(NotoSans-VariableFont_wdth\,wght.ttf);
+}
 body{
     margin: 0;
 }
@@ -12,7 +16,20 @@ article{
     margin-top: 16px;
     text-align: justify;
     display:inline-block;
+    border: 1px solid #c4ac30;
+   
 
+}
+article:hover{
+    background-color: #dbd2a3;
+
+}
+article:hover h2 {
+    color:white ;
+    text-shadow: 2px 2px #d74f33;
+}
+article:hover img {
+    border: 1px solid #d74f33;
 }
 header{
     background:#4b3e4d;
@@ -21,6 +38,9 @@ header{
     padding: 0;  
     position: sticky; 
     top:0;
+}
+h1,h2{
+    font-family: 'NotoSans';
 }
 h1{
     text-align: center;
@@ -52,8 +72,9 @@ footer{
     color: #dbd8a2;
 }
 img{
-    float: left;
-    margin-left: 30px;
+    float: right;
+    margin-right: 70px;
+
    
     
     
