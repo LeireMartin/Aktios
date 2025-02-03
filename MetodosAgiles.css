@@ -4,7 +4,10 @@
 .Links { #c4ac30 };
 .Titulos { #d74f33 };
 */
+body{
+    margin: 0;
 
+}
 header{
     background:#4b3e4d;
     overflow: hidden;
@@ -15,9 +18,14 @@ h1{
     text-align: center;
     color: #dbd8a2;
     font-variant: small-caps;
+    margin-left: auto;
+    size: 1em ;
 }
 p{
-    color: #d74f33;
+    color:#4b3e4d; 
     float: left;
     top: 110px;
+}
+h2{
+    color: #d74f33;;
 }
