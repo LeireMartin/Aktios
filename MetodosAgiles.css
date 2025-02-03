@@ -6,12 +6,13 @@
 */
 body{
     margin: 0;
-    
-
 }
 article{
     margin-left: 16px;
-    float: left;
+    margin-top: 16px;
+    text-align: justify;
+    display:inline-block;
+
 }
 header{
     background:#4b3e4d;
@@ -19,6 +20,7 @@ header{
     margin: 0;
     padding: 0;  
     position: sticky; 
+    top:0;
 }
 h1{
     text-align: center;
@@ -28,14 +30,18 @@ h1{
     font-size: 2.5rem ;
 }
 p{
+    margin-left: 16px;
+    margin-top: 16px;
     color:#4b3e4d; 
-    float: left;
     font-size: 1.5rem;
     text-align: justify;
+    float: left;
 }
 h2{
     color: #d74f33;;
     font-size: 2rem;
+    margin: 16px;
+    left: 18px;
 }
 b{
     color:#1e8c93;
@@ -45,10 +51,16 @@ footer{
     background-color: #4b3e4d;
     color: #dbd8a2;
 }
-image{
-    padding-left: 80px;
+img{
     float: left;
+    margin-left: 30px;
+   
+    
+    
 }
 .definition{
     max-width: 600px;
+}
+.enfoque{
+    width: 100%;
 }
