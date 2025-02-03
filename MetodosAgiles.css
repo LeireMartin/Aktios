@@ -1,0 +1,26 @@
+/*.header { #4b3e4d };
+.textoDestacado { #1e8c93 };
+.Fondo { #dbd8a2 };
+.Links { #c4ac30 };
+.Titulos { #d74f33 };
+*/
+
+header{
+    background:#4b3e4d;
+    height: fit-content;
+    width:100%;
+    height: 108px;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    
+}
+h1{
+    text-align: center;
+    color: #dbd8a2;
+    font-variant: small-caps;
+
+}
+p{
+    color: orange;
+}
